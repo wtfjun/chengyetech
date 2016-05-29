@@ -1,0 +1,285 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+span,p {
+	text-align: center;
+}
+
+header {
+	display: block;
+	width: 100%;
+	height: 700px;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {  
+  header {
+  	height: 600px;
+  }
+}
+
+
+nav {
+	transition: transform .4s;
+	padding-top: 30px;
+	padding-left: 80px;
+	background: #1E669E;
+}
+
+nav .navbar-header button{
+	background: #1E669E;
+}
+
+@media screen and (max-width: 768px) {
+	nav {
+		display: none;
+	}
+}
+
+nav .navbar-header button span{
+	background: #fff;
+}
+
+nav .navbar-brand {
+	color: #fff;
+	font-size: 31px;
+	font-weight: 100;
+	font-family: Optima, Segoe,  'Segoe UI', Candara, Calibri, Arial, sans-serif;
+}
+
+nav .my-navbar {
+	padding-right: 50px;
+}
+
+nav .my-navbar span{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	line-height: 50px;
+	margin:0 10px;
+	font-family: Optima, Segoe,  'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	font-weight: 100;
+}
+
+#nav-navbar {
+	float: right;
+}
+
+.navbar-fixed-top {
+	transition: transform .4s;
+	transform: translateY(-30px);
+}
+#top-img {
+	position: fixed;
+	top: -120px;
+	width: 100%;
+	min-width: 950px;
+	z-index: -1;
+}
+
+header .logo {
+	position: relative;
+	text-align: center;
+}
+header .logo img {
+	width: 80px;
+}
+
+@media screen and (min-width: 768px) { 
+  header .logo {   
+    margin-top: 180px;   
+  }   
+} 
+
+@media screen and (max-width: 768px) { 
+  header .logo {   
+    margin-top: 120px;   
+  }   
+} 
+
+header .cheng {
+	display: block;
+	position: relative;
+	font-size: 50px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+ 	header .cheng {
+ 		font-size: 18px;
+ 	}
+ } 
+
+header .ggy {
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 23px;
+	color: #fff;
+}
+
+@media screen and (max-width: 768px) { 
+  header .ggy span{ 
+  	font-size: 14px; 
+  	color: #DBD9D9;
+    display: block;   
+  }   
+} 
+
+aside .sec-page {
+	height: 400px;
+	background: #fff;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) { 
+  aside .sec-page{ 
+  	height: 900px;   
+  }   
+} 
+
+aside .sec-page .header{
+	padding-top: 50px;
+	font-size: 24px;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	aside .sec-page .header span{
+		display: block;
+		font-size: 14px;
+		color: #666;
+	}
+	aside .sec-page h1 {
+		font-size: 21px;
+		font-weight: bold;
+	}
+}
+
+aside .sec-page .find-us {
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	aside .sec-page .find-us h2{
+		font-size: 21px;
+	}
+}
+
+aside .sec-page .center{
+	margin-top: 24px;
+}
+aside .sec-page .center span{
+	color: #fff;
+	font-size: 23px;
+	padding: 10px 25px 10px 25px;
+	margin-left: 10px;
+	background: #0F6FFC;
+
+}
+
+@media screen and (max-width: 768px) {
+	aside .sec-page .center span{
+		display: block;
+		color: #F1F0F0;
+		margin-top: 8px;
+		font-size: 16px;
+	}
+	aside .sec-page {
+		height: 500px;
+	}
+}
+
+aside .three-page {
+	background: #1E669E;
+	padding-bottom: 50px;
+}
+
+aside .three-page .header {
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+aside .three-page .title {
+	text-align: center;
+	color: #666;
+	font-weight: bold;
+	margin-top: -26px;
+	padding: 5px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+aside .three-page .anli {
+	margin-top: 10px;
+}
+
+aside .four-page {
+	text-align: center;
+	padding-bottom: 100px;
+	width: 100%;
+	background: #EBEBEB;
+}
+
+aside .four-page span {
+	display: block;
+}
+
+
+
+aside .four-page .at-szu {
+	padding-top: 50px;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+	aside .four-page .at-szu {
+		font-size: 21px;
+	}
+}
+
+aside .four-page .us {
+	margin-top: 50px;
+}
+
+aside .four-page .title {
+	font-size: 21px;
+	margin-bottom: 20px;
+}
+
+aside .four-page span {
+	padding-top: 25px;
+}
+@media screen and (max-width: 768px) {
+	aside .four-page span {
+		padding-top: 0px;
+		padding-bottom: 25px;
+	}
+}
+
+footer {
+	height: 180px;
+	background: #242424;
+	text-align: center;
+}
+
+footer .title {
+	padding-top: 15px;
+	margin-bottom: 15px;
+	font-size: 27px;
+	color: #fff;
+	font-weight: bold;
+}
+
+footer span {
+	color: #9E9E9E;
+}
